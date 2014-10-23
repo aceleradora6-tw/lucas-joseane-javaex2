@@ -6,10 +6,10 @@ public class PattysChallenge {
 
 	public static void main(String[] args) {
 		try {
-			File f = new File("/home/aluno2/numeros");
+			File f = new File("/home/alunos5/numeros");
 			BufferedReader br = new BufferedReader(new FileReader(f));
 			
-			int [] numeros = new int[100];
+			int [] numeros = new int[10];
 			
 			int pares =0;
 			int impares = 0;
@@ -27,7 +27,7 @@ public class PattysChallenge {
 			System.out.println("Existem " + pares + " números pares.");
 			System.out.println("Existem " + impares + " números ímpares.");
 			
-			for(int i =0 ; i<100; i++){
+			for(int i =0 ; i<10; i++){
 //				System.out.println("O número: " + i + " se repetiu " + numeros[i] + " vezes.");
 				System.out.println(i+" " + numeros[i]);
 			}

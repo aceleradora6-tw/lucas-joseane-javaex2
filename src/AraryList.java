@@ -4,7 +4,7 @@ public class AraryList {
 
 	public static void main(String[] args) {
 
-		 ArrayList<String> listaAmigos = new ArrayList<>();
+		 ArrayList<String> listaAmigos = new ArrayList();
 		 // Exercicio 1 - java
 		 listaAmigos.add("João");
 		 listaAmigos.add("Lucas");
@@ -24,8 +24,8 @@ public class AraryList {
 		 
 		 
 
-		ArrayList<Integer> a = new ArrayList<>();
-		ArrayList<Integer> b = new ArrayList<>();
+		ArrayList<Integer> a = new ArrayList();
+		ArrayList<Integer> b = new ArrayList();
 
 		a.add(1);		
 		a.add(2);		
@@ -123,7 +123,7 @@ public class AraryList {
 	public static ArrayList<Integer> interseccao(ArrayList<Integer> a,
 			ArrayList<Integer> b) {
 
-		ArrayList<Integer> c = new ArrayList<>();
+		ArrayList<Integer> c = new ArrayList();
 
 		for (int i = 0; i < a.size(); i++) {
 			for (int j = 0; j < b.size(); j++) {
@@ -170,7 +170,7 @@ public class AraryList {
 	}
 
 	public static ArrayList<Integer> separaNumeros(ArrayList<Integer> a) {
-		ArrayList<Integer> b = new ArrayList<>();
+		ArrayList<Integer> b = new ArrayList();
 		
 		for (int i: a) {
 			if (i % 2 == 0) {
