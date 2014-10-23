@@ -5,7 +5,7 @@ public class AraryList {
 	public static void main(String[] args) {
 
 		 ArrayList<String> listaAmigos = new ArrayList<>();
-		 // Exercicio 1
+		 // Exercicio 1 - java
 		 listaAmigos.add("João");
 		 listaAmigos.add("Lucas");
 		 listaAmigos.add("Yasser");
